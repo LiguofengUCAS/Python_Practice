@@ -29,6 +29,8 @@ def print_subset(arrays):
         print(subset)
 
 
+print("----Program starts running----")
+
 member_0 = [1,      [1, 2, 3, 4, 5]]
 member_1 = [3,      [1, 2, 3, 4, 5]]
 subset   = [[2, 4], [1, 2, 3, 4, 5]]
