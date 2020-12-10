@@ -1,3 +1,6 @@
+"""a class used to express car"""
+
+
 class Car():
 
     def __init__(self, make, model, year):
@@ -21,13 +24,3 @@ class Car():
 
     def increase_odometer(self, miles):
         self.odometer_reading += miles
-
-
-my_new_car = Car('audi', 'a4', 2016)
-print(my_new_car.get_info())
-# my_new_car.odometer_reading = 18
-my_new_car.updata_odometer(18)
-my_new_car.read_odometer()
-
-my_new_car.increase_odometer(17)
-my_new_car.read_odometer()
